@@ -1,0 +1,53 @@
+.ownerSignup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.ownerSignup-container form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.ownerSignup-container form div {
+  margin-bottom: 15px;
+}
+
+.ownerSignup-container form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.ownerSignup-container form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.ownerSignup-container form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.ownerSignup-container form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .ownerSignup-container {
+    padding: 10px;
+  }
+
+  .ownerSignup-container form {
+    width: 100%;
+  }
+}
