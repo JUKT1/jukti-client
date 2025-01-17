@@ -7,8 +7,8 @@ const register = async (username, email, password, role) => {
           endpoints.registerEndpoint,
           {
             username,
-            email,
             password,
+            email,
             role,
           }
         );
