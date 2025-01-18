@@ -7,7 +7,8 @@ const endpoints = {
   getUsersEndpoint: `${BASE_URL}/api/users/all`,
 
   //profile
-  
+  // studend
+  createStudentProfile: `${BASE_URL}/api/profiles/student`,
 };
 
 export default endpoints;
